@@ -39,6 +39,17 @@ python3 -m pip install numpy
    
 ``` 
 
+#
+#
+# main() will be invoked when you Run This Action.
+#
+# @param Cloud Functions actions accept a single parameter,
+#        which must be a JSON object.
+#
+# @return which must be a JSON object.
+#         It will be the output of this action.
+#
+#
 import sys 
 import random
 
