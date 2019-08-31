@@ -14,8 +14,7 @@ headers = {
 }
 
 conn.request("POST",
-             "https://us-south.functions.cloud.ibm.com/api/v1/web/Developer%20Advocacy_Cloud%20Developer%20Advocacy/default/dday2-ayush-mustache.json",
-             headers=headers)
+             "https://eu-gb.functions.cloud.ibm.com/api/v1/web/olumide.shobanke%40soiconsulting.com_dev/default/IdrisOlumide.json)
 
 res = conn.getresponse()
 data = res.read()
